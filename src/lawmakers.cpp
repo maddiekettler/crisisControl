@@ -14,5 +14,5 @@ void Lawmakers::hush() {
 }
 
 void officialStatement() {
-  std::cout << " \"Thoughts and Prayers\" - sent from a staffer's iPhone" << std::endl;
+  std::cout << " \"Thoughts and Prayers\" - sent from a staffer's iPhone\n" << std::endl;
 }
