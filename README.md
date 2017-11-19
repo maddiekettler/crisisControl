@@ -2,6 +2,8 @@
 
 Because it's hard to write legislation that hurts your biggest donors.
 
+## About
+
 This code poem was born out of an increasing frustration I've felt with the US
 government and how those in power handle (or don't handle) crises. A preventable
 tragedy happens, members of Congress tweet out "thoughts and prayers" or "we must
