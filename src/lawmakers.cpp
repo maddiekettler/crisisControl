@@ -9,9 +9,14 @@ std::string& Lawmakers::represent() {
 }
 
 void Lawmakers::hush(int money) {
-  rep = "donorsAndLobbyists";
+// small donors make good press, big donors get you reelected
+  if (money > 200) {
+    rep = "donorsAndLobbyists";
   // this doesn't really do anything; more symbolic
-  actuallyHelpThoseAffected = false;
+    actuallyHelpThoseAffected = false;
+  } else {
+    // in an ideal world
+    rep = "thePeople"; }
 }
 
 void officialStatement() {
