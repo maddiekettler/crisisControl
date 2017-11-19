@@ -14,7 +14,7 @@ public:
 
 private:
   std::string rep;
-  void hush();
+  void hush(int money);
 };
 
 void officialStatement();

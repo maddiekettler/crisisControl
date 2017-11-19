@@ -3,11 +3,12 @@
 #include "lawmakers.h"
 
 std::string& Lawmakers::represent() {
-  hush();
+// https://www.opensecrets.org/lobby/clientsum.php?id=D000000082
+  hush(4130000);
   return rep;
 }
 
-void Lawmakers::hush() {
+void Lawmakers::hush(int money) {
   rep = "donorsAndLobbyists";
   // this doesn't really do anything; more symbolic
   actuallyHelpThoseAffected = false;
