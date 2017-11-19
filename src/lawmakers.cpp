@@ -16,7 +16,8 @@ void Lawmakers::hush(int money) {
     actuallyHelpThoseAffected = false;
   } else {
     // in an ideal world
-    rep = "thePeople"; }
+    rep = "thePeople";
+  }
 }
 
 void officialStatement() {
